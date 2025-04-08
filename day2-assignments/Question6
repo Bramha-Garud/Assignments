@@ -1,0 +1,16 @@
+Q6. How to un-stage changes from the staged area. write command for it.
+Answer.
+	Unstage Changes from the Staged Area in Git
+When you add changes using git and, they move to the staged area. To unstage them, use one of the following methods:
+
+1). Unstage a Single File
+-> git reset myFile.txt
+
+2). Unstage All Files
+-> git reset
+
+3). Unstage the Last git add .
+-> git reset HEAD
+
+4). Unstage and Remove All Changes
+-> git reset --hard

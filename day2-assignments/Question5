@@ -1,0 +1,6 @@
+Q5. Difference between --force push and --force-with-lease, You have to show the use of both, also you have to show in what scenario --force-with-lease is used
+Answer.
+	Both git push –force and git push –force-with-lease allow you to overwrite changes in a remote repository, but they behave differently in terms of safety.
+
+git push –force -> High risk – can delete teammates’ work
+git push –force-with-lease -> Safer – prevents accidental loss of others’ work

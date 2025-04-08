@@ -1,0 +1,18 @@
+Q2. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+Answer:
+Steps:
+1) Clone Your Repository
+-> git init
+
+2) Add a Second Remote Repository
+-> git remote add Secondary https://gitlab.com/user/repo.git
+
+3) Push to Multiple Repositories
+-> git push origin main
+
+Use Cases:
+Mirroring repositories
+Collaborating with multiple teams
+Backup purpose
+
+
